@@ -1,45 +1,44 @@
 
 body { font-family: Arial, Helvetica, sans-serif;
 } 
-.Love-me-love-my-stuff {
+#banner {
     color: blue;
-    width: 100 vw;
-    height: 100 vh;
-    background-color: yellow;
-}
-.Reasons to love me { 
+
+    
+    
+} 
+
+.box1 { 
     color:palevioletred;
-    width: 100 vw;
-    height: 100 vh;
-    background-color: yellow;
+    
+    
+    
 
 }
-.Can you help me  { 
+.box2 { 
     color: blueviolet;
     width: 100 vw;
     height: 100 vh;
-    background-color: yellow;
+    
 
 
 }
-.Can you find or know what stuff you have { 
+.box3 { 
     color: aqua;
-    width: 100 vw;
-    height: 100 vh;
-    background-color: yellow;
+    
+    
 
 }
-.Reasons to take photos or and catalogue {
+.box4 {
     color: green;
-    width: 100 vw;
-    height: 100 vh;
-    background-color: yellow;
+    
+    
+    
 
 }
-.Social Well-beign, Services, Support {
+.box5 {
     color: brown;
-    width: 100 vw;
-    height: 100 vh;
-    background-color: yellow;
+    
+    
 
 }
