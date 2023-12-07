@@ -171,4 +171,4 @@ transition: all 0.3s ease;
 #mobile-menu.is-active .bar__btn:nth-child(3) { transform:translateY(-8px)
     rotate(-45deg)   
 
-
+}
