@@ -89,10 +89,12 @@ border-radius: 4px;
 background: #f77062;
 color:#fff;
 }
-.button:hover { background: #4837ff;
+.button:hover { 
+    background: #4837ff;
 transition: all 0.3s ease;
 }
-.navbar__links:hover { color:#f77062;
+.navbar__links:hover { 
+    color:#f77062;
     transition: all 0.3s ease;
 }
 @media screen and ( max-width: 960px ) {
@@ -121,7 +123,8 @@ transition: all 0.3s ease;
 
         
     }
-    .navbar__menu.active { background: #131313;
+    .navbar__menu.active {
+        background: #131313;
         top:100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -130,14 +133,15 @@ transition: all 0.3s ease;
         font-size: 1.6rem;
 
     }
-#navbar__logo { padding-left: 25px;
+#navbar__logo { 
+    padding-left: 25px;
 
 }
 .navbar__toggle .bar { 
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    transition: all 0,3s ease-out;
+    transition: all 0.3s ease-out;
     background: #fff;
 
 }
