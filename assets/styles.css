@@ -510,10 +510,11 @@ background-clip: text;
 .social__media--wrap {
     display: flex;
     justify-content: space-between;
-    align-items: 90%;
+    align-items:  center;
     margin: 40px auto 0 auto;
-
-}
+    width: 90%;
+    max-width: 1000px;
+}   
 .social__icons {
     display: flex;
     justify-content: space-between;
