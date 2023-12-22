@@ -45,7 +45,7 @@
     font-size: 2rem;
 
 }
-.fa-gem {
+.fa-heart-o{
     margin-right: 0.5rem;
 
 }
@@ -123,7 +123,7 @@ transition: all 0.3s ease;
 
         
     }
-    .navbar__menu.active {
+    .navbar__menu .active {
         background: #131313;
         top:100%;
         opacity: 1;
