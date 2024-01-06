@@ -62,9 +62,9 @@
 .navbar__item { 
     height: 80px;
 }
-.navbar__menu {  
+.navbar__menu {
     float: right;
-    list-style-type: none; 
+    list-style-type: none;
     color: rgb(154, 140, 246);
     width: 100%;
     height: 100%;
@@ -75,7 +75,7 @@
 
 }
 
-.nav__btn__{ 
+.nav__btn__{
     display:flex;
 justify-content: center;
 align-items: center;
