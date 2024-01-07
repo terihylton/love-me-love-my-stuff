@@ -281,6 +281,7 @@ transition: all 0.3s ease;
 .main__img--container2 {
     height:80%;
     width: 80%;
+    background-color: #131313;
 }
 #menu ul > li { 
     display: flex;
