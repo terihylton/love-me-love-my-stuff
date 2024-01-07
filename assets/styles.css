@@ -53,12 +53,7 @@
     margin-right: 0.5rem;
 
 }
-#menu ul > li { 
-     display: flex;
-    align-items: center;
-    list-style: none;
-    text-align: center;
-}
+
 
 .navbar__item { 
     height: 80px;
@@ -287,7 +282,12 @@ transition: all 0.3s ease;
     height:80%;
     width: 80%;
 }
-
+#menu ul > li { 
+    display: flex;
+   align-items: center;
+   list-style-type: none;
+   text-align: center;
+}
 /*Mobile Responsive */
 @media screen and (max-width: 768px) {
     .main__container {
