@@ -283,12 +283,24 @@ transition: all 0.3s ease;
     background:url('..images/reasons-image-webp') no repeat top center / cover;
     height: 90vw;
     width: 90vw;
+    padding: 20px;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-    padding: 20px;
 }
+.main__img--container3 {
+    background:url('..images/reasons-image-webp') no repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
 }
 #menu ul > li { 
     display: flex;
