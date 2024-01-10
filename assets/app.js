@@ -1,12 +1,10 @@
-$(window).scroll(function() {
+const menu=document.querySelector ('#mobile-menu')
+const menuLinks=document.querySelector('.navbar__menu')
 
-    $('#footer').show();
+menu.addEventListener('click', function() { 
+    menu.classList.toggle('is-active')
+menuLinks.classList.toggle ('active');
+});
 
-    if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-      alert("bottom!");
-      $('#footer').hide();
-
-    }
-  });
 
 
