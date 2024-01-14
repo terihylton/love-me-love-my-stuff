@@ -14,7 +14,18 @@
     margin-right: 0.5rem;
 
 }
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
+
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
 .main__img--container {
 
     text-align: center;
