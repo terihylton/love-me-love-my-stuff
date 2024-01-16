@@ -134,11 +134,7 @@ header a {
     }
     
     /* Main content */
-    main {
-        /* Make main element take up any surplus space to push footer down */
-        flex: 1 0 auto;
-        margin-top: 47px;
-    }
+   
 }
 .main__img--container2 {
     background:url('..images/reasons-image-webp') no repeat top center / cover;
