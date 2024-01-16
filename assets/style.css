@@ -10,8 +10,7 @@
     margin: 0;
     padding: 0;
 }
-.fa-solid fa-heart-circle-check{
-    margin-right: 0.5rem;
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -20,7 +19,9 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-}
+}.fa-solid fa-heart-circle-check{
+    margin-right: 0.5rem;
+
 h1, h2, h3 {
     font-size: 'Oswald', sans-serif;
     text-transform: uppercase;
