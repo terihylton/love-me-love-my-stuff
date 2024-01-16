@@ -12,7 +12,77 @@
 }
 .fa-solid fa-heart-circle-check{
     margin-right: 0.5rem;
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3 {
+    font-size: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+.hidden-heading {
+    display: none;
+}
 
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
 }
 header a {
     text-decoration: none;
@@ -23,10 +93,51 @@ header a {
     letter-spacing: 4px;
     list-style-type: none;
 }
+
+
 .main__img--container {
 
     text-align: center;
 
+    #menu > li {
+        margin-bottom: 1em;
+    }
+    
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
+    
+    /* Navbar styles with dropdown toggle */
+    nav {
+        position: absolute;
+        background-color: #ffffff;
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: none;
+        top: 100%;
+    }
+    
+    /* Nav toggle */
+    #nav-toggle:checked~nav {
+        display: block;
+    }
+    
+    #nav-toggle {
+        display: none;
+    }
+    
+    .nav-toggle-label {
+        font-size: 2rem;
+    }
+    
+    /* Main content */
+    main {
+        /* Make main element take up any surplus space to push footer down */
+        flex: 1 0 auto;
+        margin-top: 47px;
+    }
 }
 .main__img--container2 {
     background:url('..images/reasons-image-webp') no repeat top center / cover;
