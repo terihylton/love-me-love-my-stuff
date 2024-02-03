@@ -27,6 +27,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+    text-align:center;
 }
 .hidden-heading {
     display: none;
@@ -88,6 +89,7 @@ main {
 header a {
     text-decoration: none;
     color: inherit;
+    text-align:right
 }
 #menu {
     font-size: 110%;
@@ -131,6 +133,7 @@ header a {
     
     .nav-toggle-label {
         font-size: 2rem;
+        text-align: center;
     }
     
     /* Main content */
@@ -199,7 +202,7 @@ header a {
     }
 
     #menu > li {
-        padding-left: 1rem;
+        padding-right: 2rem;
     }
 
     .nav-toggle-label {
