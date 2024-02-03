@@ -34,7 +34,7 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #070606;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -126,7 +126,7 @@ header a {
     }
     
     #nav-toggle {
-        display: none;
+        display: block;
     }
     
     .nav-toggle-label {
