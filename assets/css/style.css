@@ -19,23 +19,24 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-}.fa-solid fa-heart-circle-check{
+}
+.fa-solid fa-heart-circle-check {
     margin-right: 0.5rem;
-
+}
 h1, h2, {
-    font-size: 'Oswald', sans-serif;
+    font-size:'Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
-    text-align:center;
-}
+    text-align: center;
+}  
 .Love-me-love-my-stuff {
     text-align: center;
 }
 
 
 .hidden-heading {
-    display: none;
+   display: none;
 }
 
 /* Header */
@@ -90,7 +91,7 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
-}
+
 header a {
     text-decoration: none;
     color: inherit;
