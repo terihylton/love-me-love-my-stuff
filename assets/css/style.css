@@ -89,7 +89,9 @@ main {
 header a {
     text-decoration: none;
     color: inherit;
-    text-align:right
+    display:flex;
+    align-text: center;
+    justify-content: center;
 }
 #menu {
     font-size: 110%;
