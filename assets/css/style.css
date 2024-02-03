@@ -22,13 +22,18 @@ body {
 }.fa-solid fa-heart-circle-check{
     margin-right: 0.5rem;
 
-h1, h2, h3 {
+h1, h2, {
     font-size: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
     text-align:center;
 }
+.Love-me-love-my-stuff {
+    text-align: center;
+}
+
+
 .hidden-heading {
     display: none;
 }
