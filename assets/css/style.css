@@ -61,7 +61,7 @@ header {
 /* Navbar styles with dropdown toggle */
 nav { 
     position: absolute;
-    z-index: 90;
+
     background-color: #ffffff;
     width: 100%;
     padding-left:  1rem;
