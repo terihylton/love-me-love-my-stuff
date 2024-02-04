@@ -7,8 +7,7 @@
 /* Asterisk wildcard selector to override default styles added by the browser */
 
 * { box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
 }
 
 /* General styles */
@@ -23,16 +22,14 @@ body {
 .fa-solid fa-heart-circle-check {
     margin-right: 0.5rem;
 }
-h1, h2, {
-    font-size:'Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+h1, h2, h3 {
+    font-size: 'Oswald, sans-serif';
     color: #252525;
     text-align: center;
 }  
 .Love-me-love-my-stuff {
-    text-align: center;
-}
+    background-color: aqua;
+} 
 
 
 .hidden-heading {
@@ -41,8 +38,8 @@ h1, h2, {
 
 /* Header */
 header {
-    background-color: #070606;
-    padding: 0 1rem;
+    background-color: #ffffff;
+    padding: 1 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -50,7 +47,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
+} 
 
 #menu > li {
     margin-bottom: 1em;
@@ -61,18 +58,18 @@ header {
 }
 
 /* Navbar styles with dropdown toggle */
-nav {
-    position: fixed;
-    z-index: 99;
+nav { 
+    position: absolute;
+    z-index: 97;
     background-color: #ffffff;
     width: 100%;
     padding-left:  1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-evenly
-    align-items: baseline;
-    top: 100%;
-}
+    
+
+}  
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
@@ -104,7 +101,7 @@ header a {
     letter-spacing: 4px;
     list-style-type: none;
     display:flex;
-    align-text: center;
+    align-items: center;
     justify-content: center;
 }
 
