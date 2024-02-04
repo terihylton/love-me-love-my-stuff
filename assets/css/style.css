@@ -65,6 +65,7 @@ nav {
     background-color: #ffffff;
     width: 100%;
     padding-left:  1rem;
+    padding-right: 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     
@@ -79,7 +80,7 @@ nav {
 
 #nav-toggle {
     display: none;
-}
+} 
 
 .nav-toggle-label {
     font-size: 2rem;
