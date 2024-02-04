@@ -66,8 +66,8 @@ nav {
     width: 100%;
     padding-left:  1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
+    display: none;
+    
     
 
 }  
