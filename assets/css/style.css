@@ -39,13 +39,14 @@ header {
     background-color: #ffffff;
     padding: 1 1rem;
     position: fixed;
-    z-index: 99;
+
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-} 
+    
+}  
 
 #menu > li {
     letter-spacing: 4px;
@@ -80,10 +81,10 @@ nav {
     display: none;
 } 
 .Navbar__Link {
-    font-display: 3rem ;
+    font-weight: 2rem ;
 } 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 0.5rem;
 } 
 
 /* Main content */
