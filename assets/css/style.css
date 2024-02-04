@@ -20,7 +20,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 .fa-solid fa-heart-circle-check {
-    margin-right: 1rem;
+    margin-right: o.5rem;
 }
 h1, h2, h3 {
     font-size: 'Oswald, sans-serif';
@@ -32,9 +32,7 @@ h1, h2, h3 {
 } 
 
 
-.hidden-heading {
-   display: none;
-}
+
 
 /* Header */
 header {
