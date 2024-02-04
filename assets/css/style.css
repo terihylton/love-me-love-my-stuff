@@ -140,7 +140,9 @@ header a {
     #nav-toggle {
         display: block;
     }
-    
+    .Navbar__Link {
+        font-weight: bold;
+    } 
     .nav-toggle-label {
         font-size: 2rem;
         text-align: center;
