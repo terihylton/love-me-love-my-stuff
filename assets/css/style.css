@@ -65,7 +65,12 @@ nav {
     box-shadow: #3a3a3a; 
     display: none;
     top: 100%; 
-}   
+}  
+#navbar__logo {
+    align-content: normal;
+} 
+
+}  
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
