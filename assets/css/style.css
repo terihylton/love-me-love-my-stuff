@@ -20,7 +20,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 .fa-solid fa-heart-circle-check {
-    margin-right: 2rem;
+    margin-right: 0.5rem;
 } 
 h1, h2, h3 {
     font-size: 'Oswald';
@@ -79,7 +79,9 @@ nav {
 #nav-toggle {
     display: none;
 } 
-
+.Navbar__Link {
+    font-display: 3rem ;
+} 
 .nav-toggle-label {
     font-size: 2rem;
 } 
