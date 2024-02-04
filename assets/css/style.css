@@ -70,8 +70,7 @@ nav {
     align-content: normal;
 } 
 
-}  
-
+ 
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
