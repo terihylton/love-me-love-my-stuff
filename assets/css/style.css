@@ -234,3 +234,12 @@ header a {
         margin-top: 79px;
     }
 }
+.main__img--container2 {
+    display: flex;
+    justify-content: flex-start;
+    align-self: self-start;
+}
+.main__img--container3 {
+    display: flex;
+    flex-direction:row;
+    
