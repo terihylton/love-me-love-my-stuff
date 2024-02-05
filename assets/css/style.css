@@ -237,11 +237,12 @@ header a {
 .main__img--container2 {
     display: flex;
     justify-content: flex-start;
-    align-self: self-start;
+    align-self: center;
 }
 .main__img--container3 {
     display: flex;
     flex-direction:row;
     align-content: space-between;
-    gap: 1rem;
-} 
+    gap: 2rem;
+    align-self: center;
+}  
