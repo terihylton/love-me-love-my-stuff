@@ -180,7 +180,7 @@ header a {
 #signup {
     height: 600px;
     width: 100%;
-    background-color: rebeccapurple;
+    background:url("../images/boxes\ with\ words\ stuff\ and\ clothes.jpg") no-repeat center center / cover;
 }   
 /* Footer */
 #social-networks {
