@@ -251,3 +251,8 @@ header a {
     gap: 2rem;
     align-self: center;
 }  
+#signup {
+    height: 600px;
+    width:100%;
+    background:url("../images/boxes\ with\ words\ stuff\ and\ clothes.jpg") no-repeat center center/cover;
+}
