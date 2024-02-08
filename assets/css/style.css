@@ -172,6 +172,15 @@ header a {
     max-width: 300px;
     max-height: 300px;
 }
+.main__img--container3 {
+    background:url('..images/reasons-image-webp') no repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 
 
 .fa-solid fa-heart-circle-check{
@@ -180,7 +189,7 @@ header a {
 #signup {
     height: 600px;
     width: 80%;
-    background:url("../images/boxes\ with\ words\ stuff\ and\ clothes.jpg") no-repeat center center / cover;
+    background:url("../images/woman\ sorting\ clothes\ in\ wardrobe.jpg.url")  no-repeat center center / cover;
 }   
 /* Footer */
 #social-networks {
