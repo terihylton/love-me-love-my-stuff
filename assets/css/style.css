@@ -296,6 +296,14 @@ header a {
     flex:1;
     
 } 
+
+.h1 { 
+    background:url("../images/two\ women\ on\ mob\ and\ bg\ wake\ up\ and\ be\ happy.jpg") no-repeat center center / cover;
+    width: 80%;
+    height:auto;
+    
+} 
+
 #signup {
     height: 600px;
     width:100%;
