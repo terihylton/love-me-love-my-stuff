@@ -26,6 +26,9 @@ h1, h2, h3 {
     font-size: 'Oswald';
     color: #252525;
     text-align: center;
+} 
+.h2 { 
+    background-color: aqua;
 }  
 .Love-me-love-my-stuff {
     background-color: aqua;
@@ -297,9 +300,7 @@ header a {
     
 } 
 
-.h2 { 
-    background-color: aqua;
-}
+
 
     
 
