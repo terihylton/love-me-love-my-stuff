@@ -279,7 +279,7 @@ header a {
 }
 .main__img--container3 {
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     align-content: space-between;
     gap: 2rem;
     align-self: center;
@@ -288,7 +288,7 @@ header a {
 }
 .main__img--container4 {
     display: flex;
-    flex-direction:row;
+    flex-direction: column;
     align-content: space-between;
     gap: 2rem;
     align-self: center; 
