@@ -27,9 +27,7 @@ h1, h2, h3 {
     color: #252525;
     text-align: center;
 } 
-.h2 { 
-    background-color: aqua;
-}  
+ 
 .Love-me-love-my-stuff {
     background-color: aqua;
 } 
@@ -42,26 +40,35 @@ header {
     background-color: #ffffff;
     padding: 1 1rem;
     position: fixed;
-
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     
-}  
+}   
 
-#menu > li {
-    letter-spacing: 4px;
-    margin-bottom: 1em;
-}
+.nav li {
+     display: inline;
+} 
+.nav a { 
+    padding: 0.5em;
+    color:#252525;
+    text-decoration: none;
+    display: inline-block;
+} 
+.nav a:hover {
+ 
+background-color: rgba(255, 255, 255, .3)
+} 
+
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
  
 /* Navbar styles with dropdown toggle */
-nav { 
+.nav { 
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -72,22 +79,6 @@ nav {
 }  
 #navbar__logo {
     align-content: normal;
-} 
-
- 
-/* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
-} 
-
-#nav-toggle {
-    display: none;
-} 
-.Navbar__Link {
-    font-weight: 2rem ;
-} 
-.nav-toggle-label {
-    font-size: 0.5rem;
 } 
 
 /* Main content */
@@ -102,30 +93,20 @@ header a {
     color: inherit;
    
 }
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 .main__img--container {
 
     text-align: center;
+} 
 
-    #menu > li {
-        margin-bottom: 1em;
-    }
-    
     .active {
         border-bottom: 1px solid #3a3a3a;
     }
     
     /* Navbar styles with dropdown toggle */
-    nav {
+    .nav {
         position: absolute;
         background-color: #ffffff;
         width: 100%;
@@ -134,22 +115,6 @@ header a {
         box-shadow: 0 2px 2px #3a3a3a;
         display: none;
         top: 100%;
-    }
-    
-    /* Nav toggle */
-    #nav-toggle:checked~nav {
-        display: block;
-    }
-    
-    #nav-toggle {
-        display: block;
-    }
-    .Navbar__Link {
-        font-weight: bold;
-    } 
-    .nav-toggle-label {
-        font-size: 2rem;
-        text-align: center;
     }
     
     /* Main content */
