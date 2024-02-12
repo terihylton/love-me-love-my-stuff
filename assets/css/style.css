@@ -64,7 +64,7 @@ header {
     text-decoration: none;
     display: inline-block;
 } 
-.nav li {
+.nav li, nav ul {
         display: inline;
 } 
 
