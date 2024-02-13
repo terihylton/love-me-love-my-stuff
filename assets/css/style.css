@@ -5,10 +5,21 @@
     font-family: 'Poppins', sans-serif;
     }
 /* Asterisk wildcard selector to override default styles added by the browser */
-
-* { box-sizing: border-box;
-
+ 
+* {
+    box-sizing: border-box;
+    font-size: Poppins;
 }  
+
+.nav ul { 
+    margin: 0;
+} 
+
+.nav li {
+   display: inline;
+} 
+ 
+  
 .Love-me-love-my-stuff {
     background-color: aqua;
 } 
@@ -30,9 +41,7 @@ body {
     margin-right: 0.5rem;
 } 
  
-.nav ul { 
-    margin: 0;
-}  
+ 
 
 .nav a {  
     padding: 0.5em;
@@ -40,9 +49,7 @@ body {
     text-decoration: none;
     display: inline-block;
 } 
-.ul nav > il { 
-        display: inline;
-} 
+ 
 
 .nav a:hover {
     background-color:rgba(255, 255, 255, .3);
