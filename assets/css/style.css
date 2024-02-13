@@ -19,6 +19,26 @@
    display: inline;
 } 
  
+.nav a {
+    display: inline-block;  
+    padding: 0.5em;
+    color:#252525;
+    text-decoration: none;
+} 
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+} 
+.nav a:hover {
+    background-color:rgba(255, 255, 255, .3);
+} 
+
   
 .Love-me-love-my-stuff {
     background-color: aqua;
@@ -41,24 +61,6 @@ body {
     margin-right: 0.5rem;
 } 
  
- 
-
-.nav a {  
-    padding: 0.5em;
-    color:#252525;
-    text-decoration: none;
-    display: inline-block;
-} 
- 
-
-.nav a:hover {
-    background-color:rgba(255, 255, 255, .3);
-}   
-    
-.main-nav li {
-    padding: 0 5%;
-}  
-
 .nav { 
     position: absolute;
     background-color: #ffffff;
@@ -69,12 +71,7 @@ body {
     top: 100%; 
 }  
  
-.main-nav li {
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    border-bottom: solid rgba(255, 255, 255, .3)
-}
+
 h1, h2, h3 {
     font-size: 'Oswald';
     color: #252525;
