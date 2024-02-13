@@ -18,42 +18,15 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-}
+} 
+#navbar__logo {
+    align-content: normal;
+} 
+
 .fa-solid fa-heart-circle-check {
     margin-right: 0.5rem;
 } 
-h1, h2, h3 {
-    font-size: 'Oswald';
-    color: #252525;
-    text-align: center;
-} 
-
-.main-nav li {
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    border-bottom: solid rgba(255, 255, 255, .3)
-}
  
-.Love-me-love-my-stuff {
-    background-color: aqua;
-} 
-
-
-
-
-/* Header */
-header {
-    background-color: #ffffff;
-    padding: 1 1rem;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    
-}   
 .nav ul { 
     margin: 0;
 } 
@@ -64,10 +37,9 @@ header {
     text-decoration: none;
     display: inline-block;
 } 
-.nav li, nav ul {
+.ul nav > il { 
         display: inline;
 } 
-
 
 .nav a:hover {
  
@@ -87,9 +59,37 @@ background-color: rgba(255, 255, 255, .3)
     display: none;
     top: 100%; 
 }  
-#navbar__logo {
-    align-content: normal;
+ 
+.main-nav li {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: solid rgba(255, 255, 255, .3)
+}
+h1, h2, h3 {
+    font-size: 'Oswald';
+    color: #252525;
+    text-align: center;
+}  
+.Love-me-love-my-stuff {
+    background-color: aqua;
 } 
+
+
+
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 1 1rem;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}   
 
 /* Main content */
 main {
@@ -98,18 +98,10 @@ main {
     margin-top: 47px;
 }
 
-
-
-
-
 .main__img--container {
 
     text-align: center;
 } 
-
-    .active {
-        border-bottom: 1px solid #3a3a3a;
-    }
     
     /* Navbar styles with dropdown toggle */
     .nav {
@@ -121,11 +113,8 @@ main {
         box-shadow: 0 2px 2px #3a3a3a;
         display: none;
         top: 100%;
-    }
-    
+    }    
     /* Main content */
-   
-
 .main__img--container2 {
     background:url('..images/reasons-image-webp') no repeat top center / cover;
     height: 90vw;
@@ -180,10 +169,6 @@ main {
     align-self: auto;
 }   
 
-
-.fa-solid fa-heart-circle-check{
-    margin-right: 0.5rem;
-}
 #signup {
     height: 600px;
     width: 80%;
