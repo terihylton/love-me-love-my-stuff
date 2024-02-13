@@ -11,14 +11,14 @@
 }
 
 /* General styles */
-body {
+body { 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-} 
+}  
 #navbar__logo {
     align-content: normal;
 } 
@@ -42,10 +42,9 @@ body {
 } 
 
 .nav a:hover {
- 
-background-color: rgba(255, 255, 255, .3)
-
-} 
+    background-color:rgba(255, 255, 255, .3);
+}   
+    
 .main-nav li {
     padding: 0 5%;
 }  
@@ -75,9 +74,6 @@ h1, h2, h3 {
     background-color: aqua;
 } 
 
-
-
-
 /* Header */
 header {
     background-color: #ffffff;
@@ -104,7 +100,7 @@ main {
 } 
     
     /* Navbar styles with dropdown toggle */
-    .nav {
+.nav {
         position: absolute;
         background-color: #ffffff;
         width: 100%;
