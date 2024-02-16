@@ -2,5 +2,6 @@
     "liveServer.settings.port": 5503,
     "GitpodVNC.openVNC": false,
     "GitpodVNC.startVNC": false,
-    "GitpodVNC.stopVNC": false
+    "GitpodVNC.stopVNC": false,
+    "livePreview.defaultPreviewPath": "/index.html"
 }
